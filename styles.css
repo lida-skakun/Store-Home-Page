@@ -1,0 +1,209 @@
+body {
+	margin: 0px;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+.leftHeader > ul {
+	display: inline;
+	list-style-type: none;
+	padding: 0px;
+}
+
+.leftHeader > ul > li, .catalog > ul > li  {
+	display: inline;
+	margin-right: 5%;
+	cursor: pointer;
+}
+
+.header, .navigation, .catalog, .email, .subscribe > p, footer {
+	font-family: "Lato", "Adobe Blank";
+	color: #999999;
+	font-weight: 600;
+	font-size: 0.9em;
+}
+
+.header {
+	display: flex;
+	margin: 10px 50px 10px 100px;
+}
+
+.rightHeader {
+	right: 10%;
+	position: absolute;
+	display: flex;
+}
+
+.check {
+	margin-left: 5px;
+}
+
+select {
+	border: none;
+	font-family: inherit;
+	color: inherit;
+	font-weight: inherit;
+	-webkit-appearance: none;
+	background: url("images/RoundedRectangle2cop.png") no-repeat right;
+	padding-right: 15px;
+	margin-right: 10%;
+}
+
+hr {
+	background-color: #d9d9d9;
+	height: 1px;
+	border: 0;
+
+}
+
+.navigation, footer {
+	display: flex;
+	margin: 30px 60px 30px 100px;
+}
+
+nav > a {
+	text-decoration: none;
+	color: inherit;
+}
+
+nav > a {
+	margin-left: 6%;
+}
+
+#active {
+	border-bottom: 2px solid #1E90FF;
+	color: #000000;
+	padding-bottom: 1%;
+}
+
+#sale {
+	color: #ff0000;
+}
+
+.logo {
+	width: 25%;
+}
+
+nav {
+	width: 50%;
+	padding-top: 1%;
+}
+
+.yourBag {
+	width: 25%;
+	padding-top: 1%;
+	cursor: pointer;
+	display: flex;
+}
+
+.basket {
+	color: #000000;
+	border: 2px solid #1E90FF;
+	border-radius: 90px;
+	padding: 1%;
+	width: 35px;
+	height: 35px;
+	text-align: center;
+	margin: -2% 5% 0% 5%;
+}
+
+#searchIcon {
+	width: 18px;
+	height: 17px;
+}
+
+h1 {
+	font-family: "Playfair Display", "Adobe Blank";
+	font-weight: 400;
+	font-style: normal;
+	text-align: center;
+	font-size: 4em;
+	color: #000000;
+}
+
+
+.price {
+	text-decoration: line-through;
+	display: inline;
+}
+
+.newPrice {
+	color: #ff0000;
+	display: inline;
+}
+
+
+.catalog  {
+	text-align: center;
+	margin-left: 10%;
+	margin-right: 10%;
+	width: 80%;
+}
+
+.itemsList {
+	text-align: center;
+	display: inline;
+}
+
+.items {
+	margin: 2%;
+	display: inline-block;
+	cursor: pointer;
+}
+
+.itemAbout {
+	color: #000000;
+	font-weight: 500;
+}
+
+#moreItems {
+	letter-spacing: 2px;
+	cursor: pointer;
+	margin: 1% 0% 5% 0%;
+}
+
+.subscribe {
+	background: url("images/Layer25copy2.png");
+	padding: 5%;
+	text-align: center;
+}
+
+.subscribe > p {
+	color: #595959;
+	letter-spacing: 2px;
+}
+
+h2 {
+	font-family: "Playfair Display", "Adobe Blank";
+	font-weight: 400;
+	font-style: normal;
+	font-size: 2.5em;
+	color: #FFFFFF;
+	margin: 20px;
+}
+
+.email {
+	color: #FFFFFF;
+	border: 2px solid rgba(255, 255, 255, 0.5) ;
+	padding: 20px;
+	border-radius: 25px;
+	display: flex;
+	margin: 0% 37% 0% 37%;
+	cursor: pointer;
+}
+
+.email > img {
+	height: 14px;
+	width: 10px;
+	margin: 0px 0px 0px 40%;
+}
+
+.email > p {
+	margin: 0px;
+}
+
+.rights {
+	padding-top: 1%;
+}
